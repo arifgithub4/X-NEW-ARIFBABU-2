@@ -64,9 +64,17 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
      return api.sendMessage("𝐊𝐔𝐂𝐇 𝐍𝐀𝐇𝐈 𝐁𝐀𝐁U 😒👈", threadID);
    };
 
-   mess = "{name}"
+  mess = "{name}"
 
-  if (event.body.indexOf("bot") == 0 || (event.body.indexOf("bot") == 0)) {
+  if (event.body.includes("Bot") == 1 ||
+   (event.body.includes("bot") == 1 ||
+   (event.body.includes("Taklu") == 1 ||
+   (event.body.includes("taklu") == 1 ||
+   (event.body.includes("BOT") == 1 ||
+   (event.body.includes("tklu") == 1 ||
+   (event.body.includes("Tklu") == 1 ||
+   (event.body.includes("Oye") == 1 ||
+   (event.body.includes("oye") == 1 ))))))))) {
    var msg = {
       body: `${rand}`
     }
