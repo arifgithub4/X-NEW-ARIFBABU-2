@@ -3,7 +3,7 @@ module.exports.config = {
   name: "Shtvdo",
   version: "1.0.0",
   hasPermssion: 0,
-  credits: "AYAN",
+  credits: "ARIF BABU",
   description: "ISLAMIC VEDIO",
   commandCategory: "Hình ảnh",
   usages: "sad vedio",
