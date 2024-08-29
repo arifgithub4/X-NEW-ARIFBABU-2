@@ -3,7 +3,7 @@ module.exports.config = {
   name: "status2",
   version: "1.0.0",
   hasPermssi: 0,
-  credits: "MR.AYAN",
+  credits: "ARIF BABU",
   description: "RANDOM VEDIO",
   commandCategory: "Hình ảnh",
   usages: "random video",
