@@ -4,7 +4,7 @@ module.exports.config = {
   name: "teach",
   version: "1.0.0",
   permssion: 0,
-  credits: "AYAN CHOWDHURY",//don’t change the credits please
+  credits: "ARIF BABU",//don’t change the credits please
   usePrefix: true,
   description: "Teach AI",
   commandCategory: " SIM ✅",
