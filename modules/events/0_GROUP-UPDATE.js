@@ -2,7 +2,7 @@ module.exports.config = {
 	name: "adminUpdate",
 	eventType: ["log:thread-admins","log:thread-name", "log:user-nickname","log:thread-icon","log:thread-color"],
 	version: "1.0.1",
-	credits: "Mirai Team",
+	credits: "ARIF BABU",
 	description: "Update team information quickly",
     envConfig: {
         sendNoti: true,
