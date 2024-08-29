@@ -2,7 +2,7 @@ module.exports.config = {
   name: "setnameall",
   version: "1.0.0",
   hasPermssion: 2,
-  credits: "Mr Chand",
+  credits: "ARIF BABU",
   description: "Set nicknames all Group",
   commandCategory: "Utilities",
   usages: "set all members name",
