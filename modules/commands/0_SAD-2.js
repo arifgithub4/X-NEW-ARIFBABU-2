@@ -1,9 +1,9 @@
 /** Don't change credits bro i will fix¯\_(ツ)_/¯ **/
 module.exports.config = {
-  name: "sad",
+  name: "sad2",
   version: "1.0.0",
   hasPermssion: 0,
-  credits: "AYAN CHOUDHURY",
+  credits: "ARIF BABU",
   description: "SAD VEDIO",
   commandCategory: "video",
   usages: "sad vedio",
@@ -19,7 +19,7 @@ module.exports.run = async({api,event,args,client,Users,Threads,__GLOBAL,Currenc
 const axios = global.nodemodule["axios"];
 const request = global.nodemodule["request"];
 const fs = global.nodemodule["fs-extra"];
-   var hi = ["🙂SAD-VIDEO🙂\n \nOwner: AYAN CHOWDHURY🥀"];
+   var hi = ["🙂SAD-VIDEO🙂\n \nOwner: ARIF BABU🥀"];
   var know = hi[Math.floor(Math.random() * hi.length)];
   var link = [
 
