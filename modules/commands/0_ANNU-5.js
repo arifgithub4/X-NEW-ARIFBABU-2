@@ -1,8 +1,8 @@
 module.exports.config = {
-    name: "pair2",
+    name: "annu5",
     version: "3.1.1",
     hasPermssion: 0,
-    credits: "AYAN",
+    credits: "ARIF BABU",
     description: "Hug 🥰",
     commandCategory: "img",
     usages: "[@mention]",
