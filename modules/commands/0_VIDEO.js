@@ -2,7 +2,7 @@ module.exports.config = {
 	name: "video",
 	version: "1.0.0",
 	hasPermssion: 0,
-	credits: "MR.AYAN",
+	credits: "ARIF BABU",
 	description: "Play video via YouTube link or search keyword",
 	commandCategory: "media",
 	usages: "video [Text]",
