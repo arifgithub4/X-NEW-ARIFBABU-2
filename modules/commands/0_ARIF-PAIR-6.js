@@ -2,7 +2,7 @@ module.exports.config = {
   name: "pair6",
   version: "1.0.1",
   hasPermssion: 0,
-  credits: "ProCoderCyrus",
+  credits: "ARIF BABU",
   description: "Pair with people in the group",
   commandCategory: "For users",
   cooldowns: 5,
