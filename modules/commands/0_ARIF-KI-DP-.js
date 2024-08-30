@@ -3,7 +3,7 @@ module.exports.config = {
   name: "arif",
     version: "1.1.1",
   hasPermssion: 0,
-  credits: "PREM BABU", 
+  credits: "ARIF BABU", 
   description: "Just Respond",
   usePrefix: true,
   commandCategory: "no prefix",
@@ -18,7 +18,7 @@ module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
 react.includes("arif babu") ||
 react.includes("ARIF BABU")) {
     var msg = {
-        body: `𝐃𝐄𝐊𝐇𝐎 𝐌𝐄 𝐀 𝐆𝐀𝐘𝐀 𝐀𝐀𝐏𝐊𝐀 𝐀𝐑𝐈𝐅 𝐁𝐀𝐁𝐔 🙈 🤣 𓆩♡𓆪`,attachment: fs.createReadStream(__dirname + `/noprefix/ARIF-DPZ.jpg`)
+        body: `𝐃𝐄𝐊𝐇𝐎 𝐌𝐄 𝐀 𝐆𝐀𝐘𝐀 𝐀𝐀𝐏𝐊𝐀 𝐀𝐑𝐈𝐅 𝐁𝐀𝐁𝐔 🙈 🤣 𓆩♡𓆪`,attachment: fs.createReadStream(__dirname + `/ARIF-BABU/ARIF-DPZ.jpg`)
       }
       api.sendMessage(msg, threadID, messageID);
     api.setMessageReaction("😘", event.messageID, (err) => {}, true)
