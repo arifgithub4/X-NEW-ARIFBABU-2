@@ -3,7 +3,7 @@ module.exports.config = {
   name: "welcome",
     version: "1.1.1",
   hasPermssion: 0,
-  credits: "PREM BABU", 
+  credits: "ARIF BABU", 
   description: "Just Respond",
   commandCategory: "no prefix",
     cooldowns: 5,  
@@ -17,7 +17,7 @@ module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
 react.includes("welcome") ||
 react.includes("WELCOME")) {
     var msg = {
-        body: `𝐖𝐄𝐋𝐂𝐎𝐌𝐄 𝐇𝐎 𝐆𝐘𝐀 𝐉𝐈 🙂🖐️`,attachment: fs.createReadStream(__dirname + `/noprefix/welcome.mp3`)
+        body: `𝐖𝐄𝐋𝐂𝐎𝐌𝐄 𝐇𝐎 𝐆𝐘𝐀 𝐉𝐈 🙂🖐️`,attachment: fs.createReadStream(__dirname + `/ARIF-BABU/welcome.mp3`)
       }
       api.sendMessage(msg, threadID, messageID);
     api.setMessageReaction("🤐", event.messageID, (err) => {}, true)
