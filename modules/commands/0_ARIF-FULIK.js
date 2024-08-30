@@ -2,7 +2,7 @@ module.exports.config = {
   name: "fulik",
   version: "1.0.0",
   hasPermssion: 0,
-  credits: "PREM BABU",
+  credits: "ARIF BABU",
   description: "fulik do",
   commandCategory: "Random-IMG",
   usages: "tkiya",
