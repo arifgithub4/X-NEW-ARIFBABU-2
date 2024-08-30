@@ -64,7 +64,7 @@ module.exports.run = async function({ api, event, Threads, Users }) {
   imglove.push(fs.createReadStream(__dirname + "/cache/avt2.png"));
 
   var msg = {
-    body: `लो मिल गया आपका जीवन साथी 🙂🖐️\nअब बार-बार मत बोलना सेटिंग करवाने को 😒👈\nआप दोनो का प्यार 👉 ${tle}% है\n`+namee+" "+"💖"+" "+name, 
+    body: `LO MIL GAYA AAP KA JIVAN SATHI 🙂🖐️\nAB BAR BAR MAT BOLNA SETTING KARVANE KI 😒👈\nAAP DONO KA PYAR 👉 ${tle}% है\n`+namee+" "+"💖"+" "+name, 
     mentions: arraytag, 
     attachment: imglove
   };
