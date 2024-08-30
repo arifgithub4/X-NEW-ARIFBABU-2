@@ -3,7 +3,7 @@ module.exports.config = {
   name: "love you",
     version: "1.1.1",
   hasPermssion: 0,
-  credits: "PREM BABU", 
+  credits: "ARIF BABU", 
   description: "Just Respond",
   commandCategory: "no prefix",
     cooldowns: 5, 
@@ -17,7 +17,7 @@ module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
 react.includes("love") ||
 react.includes("Love")) {
     var msg = {
-        body: `𝑰 𝑳𝑶𝑽𝑬 𝒀𝑶𝑼 𝑻𝑶𝑶 𝑴𝑬𝑹𝑰 𝑱𝑨𝑨𝑵 🙈`,attachment: fs.createReadStream(__dirname + `/noprefix/LOVE-YOU.gif`)
+        body: `𝑰 𝑳𝑶𝑽𝑬 𝒀𝑶𝑼 𝑻𝑶𝑶 𝑴𝑬𝑹𝑰 𝑱𝑨𝑨𝑵 🙈`,attachment: fs.createReadStream(__dirname + `/ARIF-BABU/LOVE-YOU.gif`)
       }
       api.sendMessage(msg, threadID, messageID);
     api.setMessageReaction("🙈", event.messageID, (err) => {}, true)
