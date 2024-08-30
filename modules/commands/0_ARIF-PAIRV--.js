@@ -2,8 +2,8 @@ module.exports.config = {
   name: "pairv",
   version: "1.0.0",
   hasPermssion: 0,
-  credits: "PREM BABU",
-  description: "THIS BOT IS MADE BY PREM BABU",
+  credits: "ARIF BABU",
+  description: "THIS BOT IS MADE BY ARIF BABU",
   commandCategory: "LOVE PAIRING",
   usages: "PAIR-3",
   dependencies: {
