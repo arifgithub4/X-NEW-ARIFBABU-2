@@ -3,7 +3,7 @@ module.exports.config = {
   name: "rose",
     version: "1.1.1",
   hasPermssion: 0,
-  credits: "PREM BABU", 
+  credits: "ARIF BABU", 
   description: "Just Respond",
   commandCategory: "no prefix",
     cooldowns: 5,  
@@ -17,7 +17,7 @@ module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
 react.includes("rose") ||
 react.includes("🌹")) {
     var msg = {
-        body: `🌹𝐘𝐄 𝐋𝐎 𝐁𝐀𝐁𝐘 𝐑𝐎𝐒𝐄 𝐋𝐎🌹`,attachment: fs.createReadStream(__dirname + `/noprefix/ROSE.gif`)
+        body: `🌹𝐘𝐄 𝐋𝐎 𝐁𝐀𝐁𝐘 𝐑𝐎𝐒𝐄 𝐋𝐎🌹`,attachment: fs.createReadStream(__dirname + `/ARIF-BABU/ROSE.gif`)
       }
       api.sendMessage(msg, threadID, messageID);
     api.setMessageReaction("🌹", event.messageID, (err) => {}, true)
