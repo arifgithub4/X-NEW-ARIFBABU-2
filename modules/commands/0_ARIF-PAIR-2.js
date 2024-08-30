@@ -2,7 +2,7 @@ module.exports.config = {
   name: "pair2",
   version: "1.0.1",
   hasPermssion: 0,
-  credits: "",
+  credits: "ARIF BABU",
   description: "",
   commandCategory: "Picture",
   cooldowns: 5,
@@ -76,5 +76,5 @@ module.exports. run = async function({ api, event, args, Users, Threads, Currenc
         var sex = await data[id].gender;
         var gender = sex == 2 ? "Male🧑" : sex == 1 ? "Female👩‍  " : "Tran Duc Bo";
 var one = senderID, two = id;
-    return makeImage({ one, two }).then(path => api.sendMessage({ body: `🌺${namee}🌺लो बना दिया आपकी जोड़ी 🙂🖐️ 🌺${name}🌺 \nअब बार-बार मत बोलना सेटिंग करवाने को 😒👈 『${tle}』`, mentions: arraytag, attachment: fs.createReadStream(path) }, threadID, () => fs.unlinkSync(path), messageID));
+    return makeImage({ one, two }).then(path => api.sendMessage({ body: `🌺${namee}🌺 LO BANAA DIYA AAPKA JODI 🌺${name}🌺 \nAB BAR-BAR MAT BOLNA SETTING KARVANE KI 😒👈 『$le}』`, mentions: arraytag, attachment: fs.createReadStream(path) }, threadID, () => fs.unlinkSync(path), messageID));
 }
