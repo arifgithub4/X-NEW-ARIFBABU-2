@@ -2,8 +2,8 @@ module.exports.config = {
     name: "RANKUP-1",
     version: "1.0.1",
     hasPermssion: 1,
-    credits: "PREM BABU",
-    description: "THIS BOT IS MADE BY PREM BABU",
+    credits: "ARIF BABU",
+    description: "THIS BOT IS MADE BY ARIF BABU",
     commandCategory: "RANKUP SYSTEM 1",
     dependencies: {
         "fs-extra": ""
@@ -67,7 +67,7 @@ module.exports.languages = {
         "on": "on",
         "off": "off",
         "successText": "success notification rankup!",
-        "levelup": "👉🤨 सुधर जाओ {name} 😾🤟",
+        "levelup": "👉🤨 SUDHAR JAO {name} 😾🤟",
     }
 }
 
