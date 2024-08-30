@@ -2,8 +2,8 @@ module.exports.config = {
   name: "ADMIN",
   version: "1.0.0",
   hasPermssion: 0,
-  credits: "PREM-BABU",
-  description: "THIS BOT WAS MADE BY MR PREM BABU",
+  credits: "ARIF BABU",
+  description: "THIS BOT WAS MADE BY MR ARIF BABU",
   commandCategory: "ADMIN MENTION",
   usages: "",
   cooldowns: 1
